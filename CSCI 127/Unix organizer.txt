@@ -1,0 +1,12 @@
+##Name: Douglas Rollman
+##Email: DOUGLAS.ROLLMAN07@myhunter.cuny.edu 
+
+#!/bin/bash
+git clone https://github.com/HunterCSci127/CSci127
+cd Csci127
+mkdir projects
+mv ./averageImage.py ./projects
+mkdir pictures
+mv ./marylin.png ./pictures
+mv ./octopus.png ./pictures
+ls -l | grep ",py"
